@@ -12,12 +12,13 @@ const SectionCard = ({ img, title, body: CardBody }) => {
         minWidth: 250,
         maxWidth: 400,
         flex: 1,
-        margin: screen.width < 768 ? "5px auto" : "5px",
+        
+        margin: screen.width < 768 ? "5px auto" : "10px",
         //   border: "none",
-        //   border: "none",
-        //   boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+          
+    
       }}
-      cover={img ? <img height="200" alt="example" src={img} /> : null}
+      cover={img ? <img height="200" alt="example" src={img} style={{opacity:.8, border:'15px solid white'}}/> : null}
     >
       <Meta
         // avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}

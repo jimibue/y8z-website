@@ -4,6 +4,7 @@ import DayTimeline from "./components/DayTimeline";
 import CourseModules from "./components/CourseModules";
 import TechStack from "./components/TechStach";
 import Intro from "./components/Intro";
+import BigImage from "./components/BigImage";
 import IconDescriptions from "./components/IconDescriptions";
 // import useWindowSize from "./hooks/useWindowSize";
 
@@ -77,11 +78,14 @@ const FullTime = () => {
               <PrepWorks />
             </Card> */}
             <Divider />
+            <div style={{position:'relative'}}>
+            <BigImage />
+            </div>
             <Card
               style={{
                 margin: "20px 0",
                 // border: "none",
-            
+               backgroundColor:'#EE7D62'
               }}
             >
               <CourseModules />
