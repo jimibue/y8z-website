@@ -109,7 +109,7 @@ body {
   z-index:2;
 } */ 
 
-.background-texture {
+/* .background-texture {
   background: linear-gradient(
     to top,
     rgba(255, 255, 255, 0.9)
@@ -122,7 +122,7 @@ body {
   z-index: 0;
   top: 0;
   left: 0;
-}
+} */
 
 .header-x {
   width: 100%;
