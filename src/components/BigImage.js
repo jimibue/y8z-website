@@ -73,9 +73,8 @@ const BigImage = () => {
             >
               Instructor: James Yeates
             </p>
- 
           </div>
-  
+
           <div
             style={{
               display: "flex",
@@ -83,7 +82,15 @@ const BigImage = () => {
               flesDirection: "row",
             }}
           >
-          <a href='https://calendly.com/y8z-studios/20min'target='blank'     rel="noreferrer"><button style={{color:'white'}}>Want more info? Schedule 1 on 1 Meet and Greet</button></a>
+            <a
+              href="https://calendly.com/y8z-studios/20min"
+              target="blank"
+              rel="noreferrer"
+            >
+              <button style={{ color: "white" }}>
+                Want more info? Schedule 1 on 1 Meet and Greet
+              </button>
+            </a>
           </div>
         </div>
         {/* <h1 class="h1-y" style={{color:'white', textAlign:'center'}}>$3,000</h1> */}

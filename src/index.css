@@ -107,7 +107,7 @@ body {
   height:80%;
 
   z-index:2;
-} */ */
+} */ 
 
 .background-texture {
   background: linear-gradient(
@@ -259,11 +259,5 @@ button {
    font-weight: 500 !important;
 }
 
-/* body{
-  background:#666 !important;
-}
 
-.ant-layout{
-  background:#111 !important;
-} */
 
