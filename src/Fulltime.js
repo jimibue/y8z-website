@@ -5,7 +5,7 @@ import CourseModules from "./components/CourseModules";
 import TechStack from "./components/TechStach";
 import Intro from "./components/Intro";
 import IconDescriptions from "./components/IconDescriptions";
-import useWindowSize from "./hooks/useWindowSize";
+// import useWindowSize from "./hooks/useWindowSize";
 
 // const AppAnchor = () => (
 //   <Anchor affix={true}>
