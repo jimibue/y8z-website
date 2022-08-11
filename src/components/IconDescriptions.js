@@ -5,7 +5,6 @@ import { Col, Row } from "antd";
 import {
   NodeIndexOutlined,
   ScheduleOutlined,
-  ShrinkOutlined,
   SmileOutlined,
   UserAddOutlined,
   VideoCameraAddOutlined,

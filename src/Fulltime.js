@@ -1,12 +1,11 @@
 import React from "react";
-import { Anchor, Layout, Divider, Card, Row } from "antd";
+import { Layout, Divider, Card } from "antd";
 import DayTimeline from "./components/DayTimeline";
 import CourseModules from "./components/CourseModules";
 import TechStack from "./components/TechStach";
 import Intro from "./components/Intro";
 import IconDescriptions from "./components/IconDescriptions";
 import useWindowSize from "./hooks/useWindowSize";
-const { Link } = Anchor;
 
 // const AppAnchor = () => (
 //   <Anchor affix={true}>
@@ -24,7 +23,7 @@ const { Link } = Anchor;
 // );
 
 const FullTime = () => {
-  const screen = useWindowSize();
+  // const screen = useWindowSize();
   return (
     <Layout style={{ background: "rgb(255, 255, 255)", margin: "10px" }}>
       <Intro />
