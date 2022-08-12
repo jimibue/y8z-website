@@ -273,5 +273,14 @@ button {
    font-weight: 500 !important;
 }
 
+.ant-card-meta-title{
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.ant-timeline-item-content > div > h3 {
+  color: #3b365e !important;;
+  color: #8b64b4 !important;;
+}
+
 
 

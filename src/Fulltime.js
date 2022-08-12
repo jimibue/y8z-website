@@ -33,7 +33,7 @@ const FullTime = () => {
       <div style={{ padding: "10px 0 10px", display: "flex" }}>
         {/* {screen.width > 800 && <AppAnchor />} */}
 
-        <div style={{ maxWidth: "1150px", margin: "auto"}}>
+        <div style={{ maxWidth: "1150px", margin: "auto" }}>
           <div id="home">
             {/* <h1>Mission</h1>
             <p className="para-x">
@@ -80,15 +80,15 @@ const FullTime = () => {
               <PrepWorks />
             </Card> */}
             <Divider />
-            <div style={{position:'relative'}}>
-            <BigImage />
+            <div style={{ position: "relative" }}>
+              <BigImage />
             </div>
             <Card
               style={{
                 margin: "20px 0",
                 // border: "none",
-              //  backgroundColor:'rgba(238,125,98,.9)',
-              //  backgroundImage: `linear-gradient(to bottom right, red, yellow)`
+                //  backgroundColor:'rgba(238,125,98,.9)',
+                //  backgroundImage: `linear-gradient(to bottom right, red, yellow)`
               }}
             >
               <CourseModules />
@@ -98,13 +98,15 @@ const FullTime = () => {
               <PostCourse />
             </div> */}
           </div>
-          <div style={{position:'relative'}}>
+
+      
+    
+          <div style={{ position: "relative" }}>
             <BigImage2 />
-            </div>
-          <Card
+          </div>
+          {/* <Card
               style={{
                 margin: "20px 0",
-                // border: "none",
                backgroundColor:'#1CC1DC'
               }}
             >
@@ -116,13 +118,10 @@ const FullTime = () => {
  
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <DayTimeline />
-              {/* <DayTimeline /> */}
             </div>
-            {/* <div style={{ display: "flex", justifyContent: "center" }}>
-              <TechStack />
-            </div> */}
+   
              <GoalSteps />
-          </Card>
+          </Card> */}
           {/* <div id="qa">
             <h1>Common Questions</h1>
             <p className="para-x">

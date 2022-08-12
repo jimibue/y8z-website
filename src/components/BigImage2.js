@@ -10,7 +10,7 @@ const BigImage = () => {
               width={250}
               height={250}
             /> */}
-          <div class="white x" style={{padding:'20px'}}>
+          <div class="white x" style={{padding:'20px', maxWidth:'700px', margin:'auto'}}>
             {/* <p
               class="stay-home"
               style={{ color: "white", fontSize: "30px", textAlign: "center" }}
@@ -20,48 +20,78 @@ const BigImage = () => {
   
             <p
               class="stay-home"
-              style={{ color: "white", fontSize: "30px", textAlign: "center" }}
+              style={{ color: "white", fontSize: "30px", textAlign: "center",marginBottom:'10px' }}
             >
-              Get Started With the prep work{" "}
+              STILL UNSURE?
             </p>
+            <p className="para-x" style={{ color: "white", fontSize: "15px", textAlign: "center",marginBottom:'60px' }}>
+            Starting your path to a new career can be intimadating.  Bootcamps offer a quick way to get your foot in the door.  But regardless of what bootcamp you choose you'll want to go in prepared with some knowledge.  We will help you start getting a good foundation without having to break the bank.
+          </p>
+            <p
+              class="stay-home"
+              style={{ color: "white", fontSize: "20px", textAlign: "center", marginBottom:'60px' }}
+            >
+              JOIN OUR PREP WORK SECTION{" "}
+            </p>
+       
   
             <div
               style={{
                 display: "flex",
-                justifyContent: "space-around",
+                justifyContent: "space-between",
                 flesDirection: "row",
               }}
             >
               <p
                 style={{ color: "white", fontSize: "20px", textAlign: "center" }}
               >
-                Part: Html
+                Duration: 4 weeks
               </p>
               <p
                 style={{ color: "white", fontSize: "20px", textAlign: "center" }}
               >
-                Cost: $3,000
+                Cost: free
               </p>
             </div>
             <div
               style={{
                 display: "flex",
-                justifyContent: "space-around",
+                justifyContent: "space-between",
                 flesDirection: "row",
               }}
             >
               <p
                 style={{ color: "white", fontSize: "20px", textAlign: "center" }}
               >
-                Start: 11/1/22
+                Start: anytime
               </p>
               <p
                 style={{ color: "white", fontSize: "20px", textAlign: "center" }}
               >
-                Location: Online
+                Location: Online / Self-Paced
               </p>
+          
             </div>
             <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                flesDirection: "row",
+              }}
+            >
+              <p
+                style={{ color: "white", fontSize: "20px", textAlign: "center" }}
+              >
+                Schedule: M,W,F 10:00-11:00
+              </p>
+              <p
+                style={{ color: "white", fontSize: "20px", textAlign: "center" }}
+              >
+                Instructor: James Yeates
+              </p>
+          
+            </div>
+            {/* <div
               style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -73,13 +103,14 @@ const BigImage = () => {
               >
                 Instructor: James Yeates
               </p>
-            </div>
+            </div> */}
   
             <div
               style={{
                 display: "flex",
                 justifyContent: "space-around",
                 flesDirection: "row",
+                marginTop:'30px'
               }}
             >
               <a
@@ -88,7 +119,7 @@ const BigImage = () => {
                 rel="noreferrer"
               >
                 <button style={{ color: "white" }}>
-                  Link to prep work
+                 Sign Up
                 </button>
               </a>
             </div>

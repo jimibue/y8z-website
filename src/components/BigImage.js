@@ -10,7 +10,7 @@ const BigImage = () => {
             width={250}
             height={250}
           /> */}
-        <div class="white x" style={{padding:'20px'}}>
+        <div class="white x" style={{padding:'20px', maxWidth:'700px', margin:'auto'}}>
           {/* <p
             class="stay-home"
             style={{ color: "white", fontSize: "30px", textAlign: "center" }}
@@ -20,22 +20,22 @@ const BigImage = () => {
 
           <p
             class="stay-home"
-            style={{ color: "white", fontSize: "30px", textAlign: "center" }}
+            style={{ color: "white", fontSize: "30px", textAlign: "center", marginBottom:'60px' }}
           >
-            Start you new career here{" "}
+            Start your new career here{" "}
           </p>
 
           <div
             style={{
               display: "flex",
-              justifyContent: "space-around",
+              justifyContent: "space-between",
               flesDirection: "row",
             }}
           >
             <p
               style={{ color: "white", fontSize: "20px", textAlign: "center" }}
             >
-              Duration: 10 weeks
+              Duration: 12 weeks
             </p>
             <p
               style={{ color: "white", fontSize: "20px", textAlign: "center" }}
@@ -46,7 +46,7 @@ const BigImage = () => {
           <div
             style={{
               display: "flex",
-              justifyContent: "space-around",
+              justifyContent: "space-between",
               flesDirection: "row",
             }}
           >
@@ -60,8 +60,28 @@ const BigImage = () => {
             >
               Location: Online
             </p>
+        
           </div>
           <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              flesDirection: "row",
+            }}
+          >
+            <p
+              style={{ color: "white", fontSize: "20px", textAlign: "center" }}
+            >
+              Schedule: M-F 9:00-5:00
+            </p>
+            <p
+              style={{ color: "white", fontSize: "20px", textAlign: "center" }}
+            >
+              Instructor: James Yeates
+            </p>
+        
+          </div>
+          {/* <div
             style={{
               display: "flex",
               justifyContent: "space-around",
@@ -73,13 +93,14 @@ const BigImage = () => {
             >
               Instructor: James Yeates
             </p>
-          </div>
+          </div> */}
 
           <div
             style={{
               display: "flex",
               justifyContent: "space-around",
               flesDirection: "row",
+              marginTop:'30px'
             }}
           >
             <a
@@ -88,7 +109,7 @@ const BigImage = () => {
               rel="noreferrer"
             >
               <button style={{ color: "white" }}>
-                Want more info? Schedule 1 on 1 Meet and Greet
+                Want more info? Schedule a 1 on 1 Meeting
               </button>
             </a>
           </div>
