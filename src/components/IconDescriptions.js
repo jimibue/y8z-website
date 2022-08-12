@@ -25,7 +25,7 @@ const IconDescriptions = () => (
       <IconDescription>
         <UserAddOutlined style={{ fontSize: "96px" }} />
         <h3>Skilled Instructor</h3>
-        <p>Course created and taught by an senior engineer, with 3 years expierence as educator</p>
+        <p>Course created and taught by an senior engineer, with 3 years experience as educator</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
@@ -33,7 +33,7 @@ const IconDescriptions = () => (
         <VideoCameraAddOutlined style={{ fontSize: "96px" }} />
         <h3>Live Online Lectures</h3>
         <p>
-          Live lectures everyday.  Particapte in class, get realtime help, be involved!
+          Live lectures everyday.  Participate in class, get real time help, be involved!
         </p>
       </IconDescription>
     </Col>

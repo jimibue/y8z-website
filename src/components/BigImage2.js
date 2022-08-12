@@ -25,7 +25,7 @@ const BigImage = () => {
               STILL UNSURE?
             </p>
             <p className="para-x" style={{ color: "white", fontSize: "15px", textAlign: "center",marginBottom:'60px' }}>
-            Starting your path to a new career can be intimadating.  Bootcamps offer a quick way to get your foot in the door.  But regardless of what bootcamp you choose you'll want to go in prepared with some knowledge.  We will help you start getting a good foundation without having to break the bank.
+            Starting your path to a new career can be intimidating.  Bootcamps offer a quick way to get your foot in the door.  But regardless of what bootcamp you choose you'll want to go in prepared with some knowledge.  We will help you start getting a good foundation without having to break the bank.
           </p>
             <p
               class="stay-home"

@@ -8,7 +8,7 @@ export default function CourseModules() {
     <div id="course">
       <p className="stay-home">Course Details</p>
       <p className="para-x">
-        This immeserive and instesive course is designed to teach you indepth the things you need to know to be a fullstack developer.  
+        This immersive and intensive course is designed to teach you in depth the things you need to know to be a fullstack developer.  
       </p>
       <p className="para-x">
         This course is broken up into three main sections that build on one another. 
@@ -37,17 +37,17 @@ export default function CourseModules() {
                   {
                     name: "Week 2: Intro to React",
                     extra:
-                      "A crash in react, learn about state, props, react router, and component design and libraries. CSS and HTML review as well",
+                      "A crash course in react. Learn about state, props, react router, and component design and libraries. CSS and HTML review as well",
                   },
                   {
                     name: "Week 3:  React In depth",
                     extra:
-                      "Advanced react topics: hooks, async code, working with apis, context and state mangement, and more",
+                      "Advanced react topics: hooks, async code, working with apis, context, state management, and more",
                   },
                   {
                     name: "Week 4: Developer tools / Agile",
                     extra:
-                      "Tools of the trade that are pertaint to Frontend devolpment, Figma, wireframes, component design, Trello, helpful resources, styled components and more",
+                      "Tools of the trade that are pertinent to Frontend development, Figma, wireframes, component design, agile development,Trello, helpful resources, styled components, and more",
                   },
                 ]}
               />
@@ -61,13 +61,13 @@ export default function CourseModules() {
             body={
               <Description
                 title={
-                  "In this week we will learn how to create the backend and also integrate with react"
+                  "In this week we will learn how to create the backend and also integrate with it react using the MERN stack"
                 }
                 timelineItems={[
                   {
                     name: "week 5: DB's / Express / Node",
                     extra:
-                      "An overview of the Backend using Node and Express.  Well go over the http life client server life cylce and build out an api",
+                      "An overview of the Backend using Node and Express.  Well go over the http life client server life cycle and build out an api",
                   },
                   {
                     name: "week 6: The MERN Stack part 1",
@@ -75,10 +75,10 @@ export default function CourseModules() {
                       "Use the MERN stack: MongoDB, Express, React, and Node to create our first fullstack app.",
                   },
                   { name: "week 7: NO CLASS",   extra:
-                  "This is an intensive bootcamp, this week is an 'off' week but is meant to give you a chance to get caught up with sections you might have gotten behins with", },
+                  "This is an intensive bootcamp, this week is an 'off' week but is meant to give you a chance to get caught up with sections you might have gotten behind in", },
 
                   { name: "week 8: The MERN Stack part 2",extra:
-                  "We Continuing Learning to build fullstack apps and will integrate authentication, image upload and model assiocations", },
+                  "Continue to build fullstack apps and will integrate authentication, image upload,model associations and more", },
                 ]}
               />
             }
@@ -92,10 +92,10 @@ export default function CourseModules() {
               <Description
                 title={"Learn the common skills that companies are looking for, while starting to build full fledge applications"}
                 timelineItems={[
-                  { name: "week 9: Testing / Typescript", extra:"Learn how to write better code by adding test using jest and enzyme.  And learned about typed javascript, typescript" },
-                  { name: "week 10: Dev Ops", extra:"Using tools such as Docker, Kuberantes, Github, and Heroku we will see how we can streamline the development expiernce and create CI/CD pipelines." },
-                  { name: "week 11: Data Struture and Algorithms", extra:" Get prepared for whiteboard interveiw questions and strengthen your coding fundamentals" },
-                  { name: "week 12: No Lecture: Project",extra:"This is your week to take what you have learned and finsihing building out a full fledge application that you can show off to potentail employeers" },
+                  { name: "week 9: Testing / Typescript", extra:"Learn how to write better code by adding test using jest and enzyme.  Learn about typed javascript with typescript" },
+                  { name: "week 10: Dev Ops", extra:"Using tools such as Docker, Kuberantes, Github, and Heroku we will see how we can streamline the development experience and create CI/CD pipelines." },
+                  { name: "week 11: Data Structures and Algorithms", extra:" Get prepared for whiteboard interview questions and strengthen your coding fundamentals" },
+                  { name: "week 12: No Lecture: Project",extra:"This is your week to take what you have learned and finishing building out a full fledge application that you can show off to potential employers" },
                 ]}
               />
             }
