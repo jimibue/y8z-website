@@ -12,7 +12,7 @@ const DayTimeline = () => {
           style={{
             margin: "5px",
             border: "none",
-            boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
           }}
         >
           <Meta title={"Fulltime daily Schedule(Mon-Thurs)10weeks"} description={<TM />} />

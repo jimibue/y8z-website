@@ -2,9 +2,11 @@ import React from "react";
 import { Layout, Divider, Card } from "antd";
 import DayTimeline from "./components/DayTimeline";
 import CourseModules from "./components/CourseModules";
-import TechStack from "./components/TechStach";
+// import TechStack from "./components/TechStach";
 import Intro from "./components/Intro";
 import BigImage from "./components/BigImage";
+import BigImage2 from "./components/BigImage2";
+import GoalSteps from "./components/GoalSteps";
 import IconDescriptions from "./components/IconDescriptions";
 // import useWindowSize from "./hooks/useWindowSize";
 
@@ -26,12 +28,12 @@ import IconDescriptions from "./components/IconDescriptions";
 const FullTime = () => {
   // const screen = useWindowSize();
   return (
-    <Layout style={{ background: "rgb(255, 255, 255)", margin: "10px" }}>
+    <Layout style={{ background: "rgb(255, 255, 255)", margin: "0px" }}>
       <Intro />
       <div style={{ padding: "10px 0 10px", display: "flex" }}>
         {/* {screen.width > 800 && <AppAnchor />} */}
 
-        <div style={{ maxWidth: "1150px", margin: "auto", padding: "20px" }}>
+        <div style={{ maxWidth: "1150px", margin: "auto"}}>
           <div id="home">
             {/* <h1>Mission</h1>
             <p className="para-x">
@@ -39,7 +41,7 @@ const FullTime = () => {
               entrepuner. I
             </p> */}
             <p class="stay-home" style={{ textAlign: "center" }}>
-              A fulltime bootcamp created and lead by a senior engineer
+              Created and Taught by a senior engineer
             </p>
             <IconDescriptions />
           </div>
@@ -85,7 +87,8 @@ const FullTime = () => {
               style={{
                 margin: "20px 0",
                 // border: "none",
-               backgroundColor:'#EE7D62'
+              //  backgroundColor:'rgba(238,125,98,.9)',
+              //  backgroundImage: `linear-gradient(to bottom right, red, yellow)`
               }}
             >
               <CourseModules />
@@ -95,19 +98,31 @@ const FullTime = () => {
               <PostCourse />
             </div> */}
           </div>
-          <div id="schedule">
+          <div style={{position:'relative'}}>
+            <BigImage2 />
+            </div>
+          <Card
+              style={{
+                margin: "20px 0",
+                // border: "none",
+               backgroundColor:'#1CC1DC'
+              }}
+            >
+                   <p className="stay-home">Schedule</p>
             <p className="para-x">
               The course has you will modern day tools that are apllicable and
               will follow a set schedule to help you keep on track
             </p>
  
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
               <DayTimeline />
+              {/* <DayTimeline /> */}
             </div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            {/* <div style={{ display: "flex", justifyContent: "center" }}>
               <TechStack />
-            </div>
-          </div>
+            </div> */}
+             <GoalSteps />
+          </Card>
           {/* <div id="qa">
             <h1>Common Questions</h1>
             <p className="para-x">

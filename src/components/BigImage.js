@@ -10,7 +10,7 @@ const BigImage = () => {
             width={250}
             height={250}
           /> */}
-        <div class="white x">
+        <div class="white x" style={{padding:'20px'}}>
           {/* <p
             class="stay-home"
             style={{ color: "white", fontSize: "30px", textAlign: "center" }}

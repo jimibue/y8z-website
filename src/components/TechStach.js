@@ -8,11 +8,11 @@ const TechStack = () => {
       <Card
         style={{
           flex: 2,
-          margin: "5px",
+          // margin: "5px",
           border: "none",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+          // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
         }}
-        cover={<div style={{height:"100px", background:"steelblue"}}><h1>Tech Stack"</h1></div>}
+        // cover={<div style={{height:"100px", background:"steelblue"}}><h1>Tech Stack"</h1></div>}
       >
         <Meta description={<TM />} />
       </Card>{" "}
@@ -22,7 +22,7 @@ const TechStack = () => {
 const TM = () => {
   return (
     <Image.PreviewGroup>
-      <div style={{ display: "flex", marginBottom:'10px' }}>
+      <div style={{ display: "flex", marginBottom:'10px', width:'100%' }}>
         <Image
           width={50}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/242px-React-icon.svg.png"

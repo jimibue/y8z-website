@@ -7,6 +7,10 @@ export default function CourseModules() {
   return (
     <div id="course">
       <p className="stay-home">Course Details</p>
+      <p className="para-x">
+              The course has you will modern day tools that are apllicable and
+              will follow a set schedule to help you keep on track
+            </p>
       <Row
         style={{
           margin: "50px auto 0 auto",
