@@ -1,12 +1,12 @@
 import React from "react";
 import { Layout, Divider, Card } from "antd";
-import DayTimeline from "./components/DayTimeline";
+// import DayTimeline from "./components/DayTimeline";
 import CourseModules from "./components/CourseModules";
 // import TechStack from "./components/TechStach";
 import Intro from "./components/Intro";
 import BigImage from "./components/BigImage";
 import BigImage2 from "./components/BigImage2";
-import GoalSteps from "./components/GoalSteps";
+// import GoalSteps from "./components/GoalSteps";
 import IconDescriptions from "./components/IconDescriptions";
 // import useWindowSize from "./hooks/useWindowSize";
 
