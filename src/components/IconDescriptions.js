@@ -18,30 +18,30 @@ const IconDescriptions = () => (
       <IconDescription>
         <ScheduleOutlined style={{ fontSize: "96px" }} />
         <h3>Professional Curriculum</h3>
-        <p>Learn relevant tools and skills that are used in today in the real world</p>
+        <p>Learn relevant tools and skills that are used today in the real world</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <UserAddOutlined style={{ fontSize: "96px" }} />
         <h3>Skilled Instructor</h3>
-        <p>Course created and taught by an senior engineer, with 3 years experience as educator</p>
+        <p>Course created and taught by a senior engineer, with 3 years of experience as an educator</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <VideoCameraAddOutlined style={{ fontSize: "96px" }} />
-        <h3>Live Online Lectures</h3>
+        <h3>Live Online Class</h3>
         <p>
-          Live lectures everyday.  Participate in class, get real time help, be involved!
+          Live class every day.  Ask question  as they come up and get them answered on the spot.
         </p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <SmileOutlined style={{ fontSize: "96px" }} />
-        <h3>AFFORDABLE Price</h3>
-        <p>The only senior level developer lead bootcamp for $3000</p>
+        <h3>Low price</h3>
+        <p>At only $3000, this is the lowest priced, professional lead full-time Bootcamp</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
@@ -55,7 +55,7 @@ const IconDescriptions = () => (
       <IconDescription>
         <NodeIndexOutlined style={{ fontSize: "96px" }} />
         <h3>TA Lead project time</h3>
-        <p>Getting stuck on a problem? get live help from the instructor or one of our TA's</p>
+        <p>Getting stuck on a problem? get live help from the instructor or one of our TAs</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>

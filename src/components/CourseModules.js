@@ -27,27 +27,27 @@ export default function CourseModules() {
             title="Module 1: Frontend Web Development "
             body={
               <Description
-                title={"In this week you will learn the fundamentals of React and Frontend web development"}
+                title={"This week we will learn the fundamentals of React and Frontend web development"}
                 timelineItems={[
                   {
                     name: "Week 1: Javascript",
                     extra:
-                      "A deep dive into Javascript looking at functions, conditional, async await, loops and more.  We will also spend some time with git and github",
+                      "A deep dive into Javascript looking at functions, conditional, async-await, loops and more.  We will also spend some time with Git and Github",
                   },
                   {
                     name: "Week 2: Intro to React",
                     extra:
-                      "A crash course in react. Learn about state, props, react router, and component design and libraries. CSS and HTML review as well",
+                      "A crash course in React. Learn about state, props, react-router, and component design and libraries. CSS and HTML review as well",
                   },
                   {
-                    name: "Week 3:  React In depth",
+                    name: "Week 3:  React In-depth",
                     extra:
-                      "Advanced react topics: hooks, async code, working with apis, context, state management, and more",
+                      "Advanced React topics: hooks, async code, working with API's, context, state management, and more",
                   },
                   {
                     name: "Week 4: Developer tools / Agile",
                     extra:
-                      "Tools of the trade that are pertinent to Frontend development, Figma, wireframes, component design, agile development,Trello, helpful resources, styled components, and more",
+                      "Tools of the trade that are pertinent to Frontend development, Figma, wireframes, component design, agile development, Trello, helpful resources, styled-components, and more",
                   },
                 ]}
               />
@@ -61,13 +61,13 @@ export default function CourseModules() {
             body={
               <Description
                 title={
-                  "In this week we will learn how to create the backend and also integrate with it react using the MERN stack"
+                  "This week we will learn how to create the backend and also integrate with it React using the MERN stack"
                 }
                 timelineItems={[
                   {
                     name: "week 5: DB's / Express / Node",
                     extra:
-                      "An overview of the Backend using Node and Express.  Well go over the http life client server life cycle and build out an api",
+                      "An overview of the Backend using Node and Express.  Well go over the HTTP life client server life cycle and build out an API",
                   },
                   {
                     name: "week 6: The MERN Stack part 1",
@@ -75,10 +75,10 @@ export default function CourseModules() {
                       "Use the MERN stack: MongoDB, Express, React, and Node to create our first fullstack app.",
                   },
                   { name: "week 7: NO CLASS",   extra:
-                  "This is an intensive bootcamp, this week is an 'off' week but is meant to give you a chance to get caught up with sections you might have gotten behind in", },
+                  "This is an intensive Bootcamp, this week is an 'off' week but is meant to give you a chance to get caught up with sections you might have gotten behind in", },
 
                   { name: "week 8: The MERN Stack part 2",extra:
-                  "Continue to build fullstack apps and will integrate authentication, image upload,model associations and more", },
+                  "Continue to build fullstack apps and will integrate authentication, image upload, model associations, and more", },
                 ]}
               />
             }
@@ -90,12 +90,12 @@ export default function CourseModules() {
             title="Module 3: Senior Dev Skills"
             body={
               <Description
-                title={"Learn the common skills that companies are looking for, while starting to build full fledge applications"}
+                title={"Learn the common skills that companies are looking for while starting to build full- fledge applications"}
                 timelineItems={[
-                  { name: "week 9: Testing / Typescript", extra:"Learn how to write better code by adding test using jest and enzyme.  Learn about typed javascript with typescript" },
+                  { name: "week 9: Testing / Typescript", extra:"Learn how to write better code by adding tests using jest and enzyme.  Learn about typed javascript with typescript" },
                   { name: "week 10: Dev Ops", extra:"Using tools such as Docker, Kuberantes, Github, and Heroku we will see how we can streamline the development experience and create CI/CD pipelines." },
                   { name: "week 11: Data Structures and Algorithms", extra:" Get prepared for whiteboard interview questions and strengthen your coding fundamentals" },
-                  { name: "week 12: No Lecture: Project",extra:"This is your week to take what you have learned and finishing building out a full fledge application that you can show off to potential employers" },
+                  { name: "week 12: No Lecture: Project",extra:"This is your week to take what you have learned and finish building out a full fledge application that you can show off to potential employers" },
                 ]}
               />
             }

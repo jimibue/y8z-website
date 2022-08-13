@@ -12,7 +12,7 @@ export default function PrepWorks() {
         Before getting into code and before paying any money, you should really
         see if coding is something that is right for you. There are many great
         free resources where you can check to get a gauge if it is for you.
-        These will also prep you for the intensity and pace of a bootcamp
+        These will also prep you for the intensity and pace of a Bootcamp.
       </p>
       <div>
       <Row style={{ margin:'50px auto 0 auto', display:'flex', justifyContent:'center', border:'1px solid'}}>

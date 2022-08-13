@@ -13,7 +13,7 @@ const Intro = () => {
         /> */}
         <div class="white">
   
-          <p class="stay-home" style={{color:'white', fontSize:'30px', textAlign:'center' }}>Y8Z FULLTIME WEB DEVELOPMENT COURSE </p>
+          <p class="stay-home" style={{color:'white', fontSize:'30px', textAlign:'center' }}>Y8Z FULL-TIME WEB DEVELOPMENT COURSE </p>
 
           <p></p>
           {/* <p class="para" style={{color:'white'}}>

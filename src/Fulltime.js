@@ -41,7 +41,7 @@ const FullTime = () => {
               entrepuner. I
             </p> */}
             <p class="stay-home" style={{ textAlign: "center" }}>
-              Created and Taught by a senior engineer
+              Created and taught by a senior engineer
             </p>
             <IconDescriptions />
           </div>

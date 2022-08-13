@@ -23,7 +23,7 @@ export default function PostCourse() {
             title="Focus 1: Continue to learn"
             body={
               <Description
-                title={"In this week you will learn the fundamentals of React"}
+                title={"This week you will learn the fundamentals of React"}
                 timelineItems={[
                   { name: "React Native" },
                   { name: "Data Structures and Algorithims" },
