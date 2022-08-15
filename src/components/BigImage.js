@@ -11,16 +11,16 @@ const BigImage = () => {
             height={250}
           /> */}
         <div class="white x" style={{padding:'20px', maxWidth:'700px', margin:'auto'}}>
-          {/* <p
+          <p
             class="stay-home"
-            style={{ color: "white", fontSize: "30px", textAlign: "center" }}
+            style={{ color: "white", fontSize: "25px", textAlign: "center" }}
           >
-            FULLTIME WEB DEVELOPMENT COURSE{" "}
-          </p> */}
+            FULL-TIME WEB DEVELOPMENT COURSE{" "}
+          </p>
 
           <p
             class="stay-home"
-            style={{ color: "white", fontSize: "30px", textAlign: "center", marginBottom:'60px' }}
+            style={{ color: "white", fontSize: "18px", textAlign: "center", marginBottom:'60px' }}
           >
             Start your new career here{" "}
           </p>
@@ -53,12 +53,12 @@ const BigImage = () => {
             <p
               style={{ color: "white", fontSize: "20px", textAlign: "center" }}
             >
-              Start: 11/1/22
+              Start: 10/17/22 
             </p>
             <p
               style={{ color: "white", fontSize: "20px", textAlign: "center" }}
             >
-              Location: Online
+              Location: online
             </p>
         
           </div>
@@ -72,7 +72,7 @@ const BigImage = () => {
             <p
               style={{ color: "white", fontSize: "20px", textAlign: "center" }}
             >
-              Schedule: M-F 9:00-5:00
+              Schedule: M-F 9:00-5:00 (MST)
             </p>
             <p
               style={{ color: "white", fontSize: "20px", textAlign: "center" }}

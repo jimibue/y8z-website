@@ -27,12 +27,12 @@ export default function CourseModules() {
             title="Module 1: Frontend Web Development "
             body={
               <Description
-                title={"This week we will learn the fundamentals of React and Frontend web development"}
+                title={"Learn the fundamentals of React, Javascript, HTML, CSS and Frontend Web Development."}
                 timelineItems={[
                   {
                     name: "Week 1: Javascript",
                     extra:
-                      "A deep dive into Javascript looking at functions, conditional, async-await, loops and more.  We will also spend some time with Git and Github",
+                      "A deep dive into Javascript looking at functions, conditional, async-await, loops and more.  We will also spend some time with Git and Github.",
                   },
                   {
                     name: "Week 2: Intro to React",
@@ -61,7 +61,7 @@ export default function CourseModules() {
             body={
               <Description
                 title={
-                  "This week we will learn how to create the backend and also integrate with it React using the MERN stack"
+                  "Learn how to create the backend and also integrate with it React using the MERN stack."
                 }
                 timelineItems={[
                   {
@@ -72,13 +72,13 @@ export default function CourseModules() {
                   {
                     name: "week 6: The MERN Stack part 1",
                     extra:
-                      "Use the MERN stack: MongoDB, Express, React, and Node to create our first fullstack app.",
+                      "Crash course in the MERN stack: MongoDB, Express, React, and Node. We'll use this to build our first fullstack app.",
                   },
                   { name: "week 7: NO CLASS",   extra:
-                  "This is an intensive Bootcamp, this week is an 'off' week but is meant to give you a chance to get caught up with sections you might have gotten behind in", },
+                  "This is an intensive Bootcamp, this week is an 'off' week but is meant to give you a chance to get caught up with sections you might have gotten behind in.", },
 
                   { name: "week 8: The MERN Stack part 2",extra:
-                  "Continue to build fullstack apps and will integrate authentication, image upload, model associations, and more", },
+                  "Continue to build fullstack apps. We will also integrate authentication, image upload, model associations, and more.", },
                 ]}
               />
             }
@@ -90,12 +90,12 @@ export default function CourseModules() {
             title="Module 3: Senior Dev Skills"
             body={
               <Description
-                title={"Learn the common skills that companies are looking for while starting to build full- fledge applications"}
+                title={"Learn common skills that companies are looking for and  build advanced applications."}
                 timelineItems={[
-                  { name: "week 9: Testing / Typescript", extra:"Learn how to write better code by adding tests using jest and enzyme.  Learn about typed javascript with typescript" },
+                  { name: "week 9: Testing / Typescript", extra:"Learn how to write better code by adding tests using jest and enzyme.  Learn about typed Javascript with Typescript." },
                   { name: "week 10: Dev Ops", extra:"Using tools such as Docker, Kuberantes, Github, and Heroku we will see how we can streamline the development experience and create CI/CD pipelines." },
-                  { name: "week 11: Data Structures and Algorithms", extra:" Get prepared for whiteboard interview questions and strengthen your coding fundamentals" },
-                  { name: "week 12: No Lecture: Project",extra:"This is your week to take what you have learned and finish building out a full fledge application that you can show off to potential employers" },
+                  { name: "week 11: Data Structures and Algorithms", extra:" Get prepared for whiteboard interview questions and strengthen your coding fundamentals." },
+                  { name: "week 12: No Lecture: Project",extra:"This is your week to take what you have learned and finish building out a advanced fullstack application that you can show off to potential employers." },
                 ]}
               />
             }
@@ -121,10 +121,10 @@ const Description = ({ title, timelineItems }) => {
   };
   return (
     <div>
-      <p>{title}</p>
-      <span>Senior dev lead lecture: 60+ hours</span>
+      <p style={{fontSize:'16px'}}>{title}</p>
+      {/* <span>Senior dev lead lecture: 60+ hours</span>
       <br />
-      <p>group/solo project time: 80+ hours</p>
+      <p>group/solo project time: 80+ hours</p> */}
       <Timeline style={{ padding: "10px" }}>{renderTimeline()}</Timeline>
     </div>
   );

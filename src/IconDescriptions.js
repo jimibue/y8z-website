@@ -18,14 +18,14 @@ const IconDescriptions = () => (
       <IconDescription>
         <ScheduleOutlined style={{ fontSize: "96px" }} />
         <h3>Professional Curriculum</h3>
-        <p>Learn relevant tools and skills that are used currently in the real world</p>
+        <p>Learn relevant tools and skills that are used today in the real world</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <UserAddOutlined style={{ fontSize: "96px" }} />
         <h3>Skilled Instructor</h3>
-        <p>Course created and taught by a senior engineer, with 3 years of experience as an instructor</p>
+        <p>Course created and taught by a senior engineer, with 3 years of experience as an educator</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
@@ -40,7 +40,7 @@ const IconDescriptions = () => (
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <SmileOutlined style={{ fontSize: "96px" }} />
-        <h3>Low price</h3>
+        <h3>Low Price</h3>
         <p>At $3000, this is the lowest priced, professional lead full-time Bootcamp</p>
       </IconDescription>
     </Col>
@@ -54,15 +54,15 @@ const IconDescriptions = () => (
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <NodeIndexOutlined style={{ fontSize: "96px" }} />
-        <h3>TA Lead project time</h3>
+        <h3>TA Lead Project Time</h3>
         <p>Stuck on a problem? Get live help from the instructor or one of our TAs</p>
       </IconDescription>
     </Col>
     <Col xs={24} md={12} lg={6}>
       <IconDescription>
         <ZoomInOutlined style={{ fontSize: "96px" }} />
-        <h3>Small Class size</h3>
-        <p>To keep a close and personalized enviroment class size will cap at 20</p>
+        <h3>Small Class Size</h3>
+        <p>Class size will cap at 20 students.  We</p>
       </IconDescription>
     </Col>
     {/* <Col xs={24} md={12} lg={6}>
