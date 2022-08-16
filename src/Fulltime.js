@@ -40,7 +40,7 @@ const FullTime = () => {
               Y8Z was created by an Educator and Software Engigneer. Not be an
               entrepuner. I
             </p> */}
-            <p class="stay-home" style={{ textAlign: "center", marginTop:"30px" }}>
+            <p className="stay-home" style={{ textAlign: "center", marginTop:"30px" }}>
              Y8Z:  Top Notch Course at a Great Price 
             </p>
             <IconDescriptions />

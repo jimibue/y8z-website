@@ -4,8 +4,8 @@ const Intro2 = () => {
   return (
     <>
       <Divider />
-      <header class="header-x">
-        <div class="">
+      <header className="header-x">
+        <div className="">
           <p>Price: $3000</p>
           <p>Location: online</p>
           <p>length: 12 weeks</p>
@@ -18,8 +18,8 @@ const Intro2 = () => {
             flexDirection: "column",
           }}
         >
-          <p class="stay-home">Setup a meeting to discuss more</p>
-          {/* <h1 class="h1-x">Learn to code here</h1> */}
+          <p className="stay-home">Setup a meeting to discuss more</p>
+          {/* <h1 className="h1-x">Learn to code here</h1> */}
           <p></p>
 
           <a

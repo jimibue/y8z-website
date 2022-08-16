@@ -23,7 +23,7 @@ export default function CourseModules() {
       >
         <Col xs={24} md={12} lg={8}>
           <SectionCard
-            img="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
+            img='/computer_code.jpg'
             title="Module 1: Frontend Web Development "
             body={
               <Description
@@ -56,7 +56,8 @@ export default function CourseModules() {
         </Col>
         <Col xs={24} md={12} lg={8}>
           <SectionCard
-            img="https://media.istockphoto.com/id/1206638576/fr/photo/concepteur-de-site-web-concepteur-creative-planification-d%C3%A9veloppeur-d%C3%A9veloppeur-projet-de.webp?s=612x612&w=is&k=20&c=yHvLwS5vz8JV36qqOB4btNwpJRy2KMeL3SUePMBRGH4="
+            // img="https://media.istockphoto.com/id/1206638576/fr/photo/concepteur-de-site-web-concepteur-creative-planification-d%C3%A9veloppeur-d%C3%A9veloppeur-projet-de.webp?s=612x612&w=is&k=20&c=yHvLwS5vz8JV36qqOB4btNwpJRy2KMeL3SUePMBRGH4="
+            img="blueprint.jpg"
             title="Module 2: Fullstack Web Development"
             body={
               <Description
@@ -86,7 +87,8 @@ export default function CourseModules() {
         </Col>
         <Col xs={24} md={12} lg={8}>
           <SectionCard
-            img="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+            // img="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+            img="/glasses.jpg"
             title="Module 3: Senior Dev Skills"
             body={
               <Description
@@ -110,7 +112,7 @@ const Description = ({ title, timelineItems }) => {
   const renderTimeline = () => {
     return timelineItems.map((ti) => {
       return (
-        <Timeline.Item dot={<SmileOutlined />}>
+        <Timeline.Item key={ti.name} dot={<SmileOutlined />}>
           <div style={{ marginBottom: 0 }}>
             <h3>{ti.name}</h3>
             <p>{ti.extra}</p>

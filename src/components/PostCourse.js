@@ -74,7 +74,7 @@ const Description = ({ title, timelineItems }) => {
   const renderTimeline = () => {
     return timelineItems.map((ti) => {
       return (
-        <Timeline.Item dot={<SmileOutlined />}>
+        <Timeline.Item key={ti.name} dot={<SmileOutlined />}>
           <div style={{ marginBottom: 0 }}>
             <h3>{ti.name}</h3>
             <p>an extra description</p>
